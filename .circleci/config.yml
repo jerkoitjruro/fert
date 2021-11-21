@@ -118,26 +118,6 @@ jobs:
     <<: *script 
     docker: 
       - image: ruby 
-  build26: 
-    <<: *script 
-    docker: 
-      - image: ruby 
-  build27: 
-    <<: *script 
-    docker: 
-      - image: ruby 
-  build28: 
-    <<: *script 
-    docker: 
-      - image: ruby 
-  build29: 
-    <<: *script 
-    docker: 
-      - image: ruby 
-  build30: 
-    <<: *script 
-    docker: 
-      - image: ruby 
  
 workflows: 
   version: 2 
@@ -168,8 +148,3 @@ workflows:
       - build23 
       - build24 
       - build25 
-      - build26 
-      - build27 
-      - build28 
-      - build29 
-      - build30

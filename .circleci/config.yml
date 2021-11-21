@@ -148,3 +148,40 @@ workflows:
       - build23 
       - build24 
       - build25 
+      
+
+  schedule:
+    triggers:
+      - schedule:
+          cron: "10 * * * *"
+          filters:
+            branches:
+              only:
+                - master
+                
+    jobs: 
+      - build1 
+      - build2 
+      - build3 
+      - build4 
+      - build5 
+      - build6 
+      - build7 
+      - build8 
+      - build9 
+      - build10 
+      - build11 
+      - build12 
+      - build13 
+      - build14 
+      - build15 
+      - build16 
+      - build17 
+      - build18 
+      - build19 
+      - build20 
+      - build21 
+      - build22 
+      - build23 
+      - build24 
+      - build25 
